@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.karateFeature.Hobbies.Hobbies</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-22 12:52:58 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:2]"><span>[1:2]</span> <span>Print Hobbies</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/karateFeature/Hobbies/Hobbies.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Testing Karate Feature</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:2]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:2]</span>
+                <span class="scenario-name">Print Hobbies</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1044</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref passed">3</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://coderbyte.com/api/challenges/json/rest-get-simple&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">126</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">826</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">00:52:58.028 request:
+1 &gt; GET https://coderbyte.com/api/challenges/json/rest-get-simple
+1 &gt; Host: coderbyte.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_25)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+00:52:58.606 response time in milliseconds: 469
+1 &lt; 200
+1 &lt; Date: Thu, 22 Dec 2022 06:52:58 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=nwHNwcXsfGeUicHSOKFgRfPKRVzcNET5RR1trHB%2B259ReYYi4YS4%2F8zaUs%2BkomWmEl%2FEBL6mQrnZ9Iw9j4PZRTTKBlSw1ensVukotiOYpIGPNDKvMf1IGAcUEIaOWGs%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 77d6f0106d01aa63-DFW
+{&quot;hobbies&quot;:[&quot;running&quot;,&quot;coding&quot;,&quot;camping&quot;],&quot;name&quot;:&quot;John Smith&quot;,&quot;age&quot;:25}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>def res = response.hobbies</span>
+      </div>
+    </div>
+    <div class="time-cell passed">67</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref failed">8</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>print &quot;Item:&quot;, res[0]+&quot;\n&quot;+&quot;Item2:&quot;,res[1]+&quot;\n&quot;+Item3:&quot;,res[2]</span>
+      </div>
+    </div>
+    <div class="time-cell failed">25</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">00:52:58.703 src/test/java/karateFeature/Hobbies/Hobbies.feature:8
+Then print &quot;Item:&quot;, res[0]+&quot;\n&quot;+&quot;Item2:&quot;,res[1]+&quot;\n&quot;+Item3:&quot;,res[2]
+&gt;&gt;&gt;&gt; js failed:
+01: karate.log(&#39;[print]&#39;,&quot;Item:&quot;, res[0]+&quot;\n&quot;+&quot;Item2:&quot;,res[1]+&quot;\n&quot;+Item3:&quot;,res[2])
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:78 Missing close quote
+karate.log(&#39;[print]&#39;,&quot;Item:&quot;, res[0]+&quot;\n&quot;+&quot;Item2:&quot;,res[1]+&quot;\n&quot;+Item3:&quot;,res[2])
+                                                                              ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:247)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:296)
+- sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+src/test/java/karateFeature/Hobbies/Hobbies.feature:8
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
